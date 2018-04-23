@@ -1,0 +1,21 @@
+@{
+    var grid = Html.DevExpress().GridView(settings =>
+    {
+        settings.Name = "GridView";
+        settings.CallbackRouteValues = new { Controller = "Home", Action = "GridViewPartial" };
+
+
+        settings.KeyFieldName = "ModelID";
+
+        settings.SettingsPager.Visible = true;
+        settings.Settings.ShowGroupPanel = true;
+        settings.Settings.ShowFilterRow = true;
+        settings.SettingsBehavior.AllowSelectByRowClick = false;
+
+        settings.Columns.Add("ModelID");
+        settings.Columns.Add("ModelName");
+        settings.Columns.Add("ModelState");
+        settings.Columns.Add("ModelDate");
+    });
+}
+@grid.Bind(Model).GetHtml()
