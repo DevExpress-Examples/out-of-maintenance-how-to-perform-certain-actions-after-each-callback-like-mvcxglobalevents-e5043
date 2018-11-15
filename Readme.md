@@ -1,3 +1,14 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [HomeController.cs](./CS/AjaxTest/Controllers/HomeController.cs) (VB: [HomeController.vb](./VB/AjaxTest/Controllers/HomeController.vb))
+* [MyModel.cs](./CS/AjaxTest/Models/MyModel.cs) (VB: [MyModel.vb](./VB/AjaxTest/Models/MyModel.vb))
+* [_CallbackPanelPartial.cshtml](./CS/AjaxTest/Views/Home/_CallbackPanelPartial.cshtml)
+* [_GridViewPartial.cshtml](./CS/AjaxTest/Views/Home/_GridViewPartial.cshtml)
+* **[Index.cshtml](./CS/AjaxTest/Views/Home/Index.cshtml)**
+* [TestPartial.cshtml](./CS/AjaxTest/Views/Home/TestPartial.cshtml)
+* [_Layout.cshtml](./CS/AjaxTest/Views/Shared/_Layout.cshtml)
+<!-- default file list end -->
 # How to perform certain actions after each callback (like MVCxGlobalEvents)
 
 
