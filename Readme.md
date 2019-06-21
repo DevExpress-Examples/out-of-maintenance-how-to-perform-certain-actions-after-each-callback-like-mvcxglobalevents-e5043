@@ -9,6 +9,9 @@
 * [_Layout.cshtml](./CS/AjaxTest/Views/Shared/_Layout.cshtml)
 <!-- default file list end -->
 # How to perform certain actions after each callback (like MVCxGlobalEvents)
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/e5043)**
+<!-- run online end -->
 
 
 <p>The main idea is to handle the <a href="http://api.jquery.com/ajaxsuccess/">jQuery.ajaxSuccess</a> event for the document element, which is raised after each callback.</p>
