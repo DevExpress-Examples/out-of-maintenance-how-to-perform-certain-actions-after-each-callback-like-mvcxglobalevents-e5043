@@ -25,7 +25,7 @@
 ```
 
 
-<p><br />Starting with v.13.2, we've introduced the MVCxClientGlobalEvents object (see <a href="https://www.devexpress.com/Support/Center/p/S38527">ASP.NET MVC - Provide the capability to handle the CallbackError event globally (implement an ASPxGlobalEvents equivalent)</a>) <br />It's possible to use the <a href="https://documentation.devexpress.com/#AspNet/DevExpressWebMVCScriptsMVCxClientGlobalEvents_ControlsInitializedtopic">MVCxClientGlobalEvents.ControlsInitialized</a> event handler for this purpose: </p>
+<p><br />Starting with v.13.2, we've introduced the MVCxClientGlobalEvents object (see <a href="https://www.devexpress.com/Support/Center/p/S38527">ASP.NET MVC - Provide the capability to handle the CallbackError event globally (implement an ASPxGlobalEvents equivalent)</a>) <br />It's possible to use the <a href="https://docs.devexpress.com/AspNetMvc/js-MVCxClientGlobalEvents.ControlsInitialized">MVCxClientGlobalEvents.ControlsInitialized</a> event handler for this purpose: </p>
 
 
 ```js
