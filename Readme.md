@@ -1,8 +1,3 @@
-<!-- default badges list -->
-![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/128566839/13.1.8%2B)
-[![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E5043)
-[![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
-<!-- default badges end -->
 <!-- default file list -->
 *Files to look at*:
 
@@ -14,9 +9,6 @@
 * [_Layout.cshtml](./CS/AjaxTest/Views/Shared/_Layout.cshtml)
 <!-- default file list end -->
 # How to perform certain actions after each callback (like MVCxGlobalEvents)
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/e5043)**
-<!-- run online end -->
 
 
 <p>The main idea is to handle the <a href="http://api.jquery.com/ajaxsuccess/">jQuery.ajaxSuccess</a> event for the document element, which is raised after each callback.</p>
